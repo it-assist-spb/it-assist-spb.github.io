@@ -4,8 +4,8 @@ subtitle: Уверенный Wi-Fi сигнал в квартире
 layout: default
 modal-id: 1
 date: 2020-11-01
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: wifi.png
+thumbnail: wifi-thumbnail.png
 alt: image-alt
 project-date: с 2020 года
 client: Start Bootstrap
