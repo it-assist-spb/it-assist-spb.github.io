@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: О чем речь?<bt>Пример 1:
+description: О чем речь?<br>Пример 1 &#x3A;
 
 ---
