@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Github",
+    "link": "https://github.com/",
+    "image": "images/social/github.svg"
+  },
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/",
+    "image": "images/social/twitter.svg"
+  },
+  {
+    "name": "vk",
+    "link": "https://vk.com/",
+    "image": "images/social/vk.png"
+  },
+  {
+    "name": "telegram",
+    "link": "https://t.me/",
+    "image": "images/social/telegram.png"
+  }
+]
