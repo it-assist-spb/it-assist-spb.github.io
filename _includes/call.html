@@ -1,13 +1,13 @@
 <div class="call">
   <div class="call-box-top">
-    {% for phone in site.contacts.phones %}
+    {% for phone in site.data.contact.phones %}
         <div class="call-phone"><strong>Телефон: </strong> {{ phone }} </div>
     {% endfor %}
         
-    {% if site.contacts.email %}
+    {% if site.data.contact.email %}
     <div class="call-email"><strong>Email: </strong>
-      <a href="mailto:{{ site.contacts.email }}">
-        {{ site.contacts.email }}
+      <a href="mailto:{{ site.data.contact.email }}">
+        {{ site.data.contact.email }}
       </a>
     </div>
     {% endif %}

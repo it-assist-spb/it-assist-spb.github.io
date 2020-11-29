@@ -5,9 +5,9 @@ bodyClass: page-contact
 ---
 
 
-Вконтакте: [{{ site.contacts.vkgroup }}]({{ site.contacts.vkgroup }})
-
-Телеграмм: [{{ site.contacts.telegram }}]({{ site.contacts.telegram }})
+{% for item in site.data.social %}
+{{ item.russian_name }}: [{{ item.link }}]({{ item.link }})
+{% endfor %}
 
 Наш сайт: [{{ site.url }}]({{ site.url }})
 

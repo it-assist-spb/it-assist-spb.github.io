@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
-    "image": "images/features/noun_branding_1885335.svg"
+    "title": "Работаем официально",
+    "description": "Заключение договора. Все максимально честно, официально и прозрачно.",
+    "image": "images/features/docum_001.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
-    "image": "images/features/noun_The Process_1885341.svg"
+    "title": "Низкие цены",
+    "description": "Нет наценки на оборудование. Никаких скрытых платежей, навязываний ненужных услуг и т.д.",
+    "image": "images/features/lowprice.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "images/features/noun_3d modeling_1885342.svg"
+    "title": "Качество",
+    "description": "Предлагаем только качественное оборужование, работаем профессионально и на результат.",
+    "image": "images/features/shield.svg"
   }
 ]

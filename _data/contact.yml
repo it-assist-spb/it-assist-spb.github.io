@@ -1,3 +1,6 @@
-email: '' # все в _config.yml в contacts
-phone: '' # все в _config.yml в contacts
+phones:
+  - "+7(812)1234567"
+  - "+7(812)7654321"
+email: 'info@it-assist.su'
+phone: '' # уже не надо
 contact_button_link: 'contact'

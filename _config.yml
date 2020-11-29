@@ -11,7 +11,7 @@ logo:
   desktop: "images/logo/logo.svg"
   desktop_height: "36px"
 footer:
-  copyright_text: 'Сайт создан с использованием <a class="zerostatic" href="https://github.com/zerostaticthemes/jekyll-serif-theme">jekyll-serif-theme</a>'
+  copyright_text: 'Сайт создан с использованием <a class="zerostatic" href="https://github.com/zerostaticthemes/jekyll-serif-theme">jekyll-serif-theme</a> (лицензия MIT)'
 
 seo:
   meta_og_title: "IT Assist"
@@ -40,10 +40,3 @@ plugins:
 
 
 # our
-contacts:
-  phones:
-    - "+7(812)1234567"
-    - "+7(812)7654321"
-  email: 'info@it-assist.su' # НАОБОРОТ! ПЕРЕНЕСТИ ЭТО В data contacts и в data social, будет логичнее 
-  telegram: https://t.me/ #it_assist_spb
-  vkgroup: https://vk.com
