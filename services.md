@@ -1,11 +1,16 @@
 ---
-title: Services
+title: Услуги и цены
 layout: services
 intro_image: "images/illustrations/reading.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Services that grow with your business
+# Услуги и цены
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+Ниже перечислены услуги, которые мы оказываем.
+
+Обратите внимание, что вначале следуют именно услуги, их подробное описание и цены; а затем - предложения по реализации индивидуальных сценариев, в которых приведены примеры использования. Сама реализация в этом случае будет уникальна специально под Ваши требования.
+
+Впрочем, и любой пример может быть предложен как готовое решение "из коробки".
+

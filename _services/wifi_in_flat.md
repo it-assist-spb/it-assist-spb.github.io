@@ -46,11 +46,11 @@ layout: service
 
 **Ориентировочная стоимость** оборудования:
 
-Роутер MIKROTIK hAP ac2 - **5&nbsp;000&nbsp;руб.** за шт.
+Роутер MIKROTIK - **5&nbsp;000&nbsp;руб.** за шт.
 
-Адаптер Powerline ZYXEL PLA5456 Gigabit Ethernet - **8&nbsp;200&nbsp;руб.** за шт.
+Адаптер Powerline ZYXEL - **8&nbsp;200&nbsp;руб.** за комплект из 2 шт.
 
-Адаптер Powerline TP-LINK TL-PA4010PKIT Fast Ethernet - **3&nbsp;500&nbsp;руб.** за шт.
+Адаптер Powerline TP-LINK - **3&nbsp;500&nbsp;руб.** за комплект пз 2 шт.
 
 **ВНИМАНИЕ! Центы на оборудования указаны для ознакомления, точный рассчет производится по чекам из магазина на день покупки!**
 
