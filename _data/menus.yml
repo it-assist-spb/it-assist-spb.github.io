@@ -2,11 +2,11 @@ main:
   - name: "Услуги и цены"
     url: "/services/"
     weight: 2
-  - name: "Team"
-    url: "/team/"
-    weight: 3
-  - name: "About"
+  - name: "Почему мы?"
     url: "/about/"
+    weight: 3
+  - name: "Наши сотрудники"
+    url: "/team/"
     weight: 4
   - name: "Контакты"
     url: "/contact/"
