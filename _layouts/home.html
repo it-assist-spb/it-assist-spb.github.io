@@ -22,10 +22,10 @@ bodyClass: page-home
   </div>
 </div>
 
-<div class="strip strip-grey">
+<div class="strip"> <!--class="strip strip-grey"-->
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
-      {% for service in site.services limit:6 %} <!-- Так лимитируется, если записи выводятся в ПРЯМОМ порядке -->
+      {% for service in site.services limit:3 %} <!-- Так лимитируется, если записи выводятся в ПРЯМОМ порядке -->
       <div class="col-12 col-md-4 mb-1">
         <div class="service service-summary">
           <div class="service-content">
@@ -41,33 +41,6 @@ bodyClass: page-home
     <div class="row justify-content-center">
       <div class="col-auto">
         <a class="button button-primary" href="{{site.baseurl}}/services">Все услуги и цены</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      {% for story in site.stories reversed %}
-       {% if forloop.index > 6 %} <!-- Так лимитируется, если записи выводятся в ОБРАТНОМ порядке -->
-          {% continue %}
-        {% endif %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="story service-summary">
-          <div class="story-content">
-            <h2 class="story-title">
-              <a href="{{site.baseurl}}{{ story.url }}">{{ story.title }}</a>
-            </h2>
-            <p>{{ story.content | markdownify | strip_html | truncate: 100 }}</p>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{site.baseurl}}/stories">Все истории</a>
       </div>
     </div>
   </div>
@@ -94,3 +67,32 @@ bodyClass: page-home
   </div>
 </div>
 {% endif %}
+
+<div class="strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      {% for story in site.stories reversed %}
+       {% if forloop.index > 3 %} <!-- Так лимитируется, если записи выводятся в ОБРАТНОМ порядке -->
+          {% continue %}
+        {% endif %}
+      <div class="col-12 col-md-4 mb-1">
+        <div class="story service-summary">
+          <div class="story-content">
+            <h2 class="story-title">
+              <a href="{{site.baseurl}}{{ story.url }}">{{ story.title }}</a>
+            </h2>
+            <p>{{ story.content | markdownify | strip_html | truncate: 100 }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <a class="button button-primary" href="{{site.baseurl}}/stories">Все истории</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
