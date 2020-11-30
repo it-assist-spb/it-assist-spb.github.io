@@ -1,0 +1,6 @@
+services:
+goods:
+    router-mikrotik: "5&nbsp;000&nbsp;руб."
+    powerline-zyxel: "8&nbsp;300&nbsp;руб."
+    powerline-tplink: "3&nbsp;500&nbsp;руб."
+

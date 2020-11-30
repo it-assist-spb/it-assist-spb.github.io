@@ -34,11 +34,11 @@ layout: service
 
 (в разработке)
 
-Роутер MIKROTIK - **5&nbsp;000&nbsp;руб.** за шт.
+Роутер MIKROTIK - **{{ site.data.prices.goods.router-mikrotik }}** за шт.
 
-Адаптер Powerline ZYXEL - **8&nbsp;200&nbsp;руб.** за комплект из 2 шт.
+Адаптер Powerline ZYXEL - **{{ site.data.prices.goods.powerline-zyxel }}** за комплект из 2 шт.
 
-Адаптер Powerline TP-LINK - **3&nbsp;500&nbsp;руб.** за комплект пз 2 шт.
+Адаптер Powerline TP-LINK - **{{ site.data.prices.goods.powerline-tplink }}** за комплект пз 2 шт.
 
 **ВНИМАНИЕ! Центы на оборудования указаны для ознакомления, точный рассчет производится по чекам из магазина на день покупки!**
 
