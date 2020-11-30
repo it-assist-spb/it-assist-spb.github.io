@@ -26,6 +26,8 @@ seo:
 collections:
   services:
     output: true
+  stories:
+    output: true
   team:
     output: true
 

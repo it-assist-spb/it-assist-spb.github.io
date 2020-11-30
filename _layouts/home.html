@@ -22,6 +22,30 @@ bodyClass: page-home
   </div>
 </div>
 
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      {% for story in site.stories %}
+      <div class="col-12 col-md-4 mb-1">
+        <div class="story service-summary">
+          <div class="story-content">
+            <h2 class="story-title">
+              <a href="{{site.baseurl}}{{ story.url }}">{{ story.title }}</a>
+            </h2>
+            <p>{{ story.content | markdownify | strip_html | truncate: 100 }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <a class="button button-primary" href="{{site.baseurl}}/stories">Все истории</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
