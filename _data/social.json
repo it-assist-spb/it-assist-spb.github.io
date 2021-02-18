@@ -1,26 +1,26 @@
 [
-  {
-    "name": "vk",
-    "russian_name": "Вконтакте",
-    "link": "https://vk.com/",
-    "image": "images/social/vk.png"
-  },
+#  {
+#    "name": "vk",
+#    "russian_name": "Вконтакте",
+#    "link": "https://vk.com/",
+#    "image": "images/social/vk.png"
+#  },
   {
     "name": "Telegram",
     "russian_name": "Телеграм",
-    "link": "https://t.me/", # it_assist_spb
+    "link": "https://t.me/it_assist_spb",
     "image": "images/social/telegram.png"
-  },
-  {
-    "name": "Twitter",
-    "russian_name": "Твиттер",
-    "link": "https://twitter.com/",
-    "image": "images/social/twitter.svg"
-  },
-  {
-    "name": "Github",
-    "russian_name": "Github",
-    "link": "https://github.com/",
-    "image": "images/social/github.svg"
-  }
+  }#,
+#  {
+#    "name": "Twitter",
+#    "russian_name": "Твиттер",
+#    "link": "https://twitter.com/",
+#    "image": "images/social/twitter.svg"
+#  },
+#  {
+#    "name": "Github",
+#    "russian_name": "Github",
+#    "link": "https://github.com/",
+#    "image": "images/social/github.svg"
+#  }
 ]
