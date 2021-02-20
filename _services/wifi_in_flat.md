@@ -45,7 +45,9 @@ permalink: /wifi/
 
 **Ориентировочная стоимость** оборудования:
 
-Роутер MIKROTIK - **{{ site.data.prices.goods.router-mikrotik }}** за шт.
+Роутер MIKROTIK двухдиапазонный - **{{ site.data.prices.goods.mikrotik-hap-ac-lite }}** за шт.
+
+Точка доступа MIKROTIK однодиапазонная - **{{ site.data.prices.goods.mikrotik-hap-lite }}** за шт.
 
 Адаптер Powerline ZYXEL - **{{ site.data.prices.goods.powerline-zyxel }}** за комплект из 2 шт.
 
